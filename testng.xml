@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Learning TestNG" parallel="tests">
+
+<test name="Application 1"  allow-return-values="true">
+    <classes>
+        <class name="AppliTest" ></class>  
+    </classes>
+</test>
+
+<test name="Login 1" allow-return-values="true">
+    <classes>
+        <class name="LoginTest" ></class>  
+    </classes>
+</test>
+
+<test name="Reg 1" allow-return-values="true">
+    <classes>
+        <class name="RegTest" ></class>  
+    </classes>
+</test>
+
+
+</suite>

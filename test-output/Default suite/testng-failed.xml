@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="AppliTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="LoginTest"/>
+          <include name="Beforesuite"/>
+          <include name="passchTest"/>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+          <include name="afterTest"/>
+          <include name="aftersuite"/>
+        </methods>
+      </class> <!-- AppliTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
